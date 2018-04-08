@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', () => {
+document.querySelector('button').addEventListener('click', function() {
 	var fibonacciEnd = document.getElementById('number').value;
 	var outpuElement = document.getElementById('output');
 	outpuElement.innerHTML = '';
